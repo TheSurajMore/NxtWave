@@ -1,0 +1,63 @@
+.add-resource-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* Make sure the children stretch to match the tallest child */
+}
+
+.add-resource-form {
+  width: 45%; /* Adjusted width */
+}
+
+.add-resource-form .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.add-resource-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add-resource-form input,
+.add-resource-form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.add-resource-form .error {
+  color: red;
+  font-size: 12px;
+}
+
+.add-resource-form button {
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-image {
+  width: 45%; /* Adjusted width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-image img {
+  width: 100%; /* Ensure the image takes up the full width of its container */
+  height: 100%; /* Make the image height equal to its container's height */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  border-radius: 8px;
+}
